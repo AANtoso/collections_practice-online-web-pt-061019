@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(puppies)
-  puppies.sorted do |left,right|
+  puppies.sort do |left,right|
     right <=> left
   end
 end
