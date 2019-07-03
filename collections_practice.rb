@@ -9,7 +9,7 @@ def sort_array_desc(puppies)
 end
 
 def sort_array_char_count
-  array.sort do |a,b|
+  array.sort do |a, b|
     a.length <=> b.length
   end
 end
